@@ -1,0 +1,108 @@
+body{
+	background-color: lightblue;
+	color: black;
+	font-family: Courier, monospace;
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: 10px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1{
+	color: darkblue ;
+	font-family: courier, monospace;
+	font-size:  60px;
+	line-height: 1.0;
+	letter-spacing: 4px;
+}
+
+h2{
+	color: darkblue;
+	font-family: courie, monospace;
+	font-size:  45px;
+	line-height: 1.0;
+	letter-spacing: 4px;
+}
+a{
+	text-decoration: none;
+	color: midnightblue;
+}
+a:hover {
+	color: slategrey;
+li
+}
+    #learning {
+	width: 400px;
+	}
+    #ruby {
+	width: 400px;
+	}
+    #gcses {
+	width: 400px;
+	}
+
+#banner h1{
+	color: white;
+}
+/* Custom design with class */ 
+.container {
+	width: 700px;
+	margin: 10px auto;
+}
+
+.box-white{
+	background-color: white ;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 1.0);
+	border-radius: 14px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue{
+	background-color: midnightblue;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 14px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li{
+	display: inline ;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+
+}
+#introduction p {
+	margin-bottom: 60px;
+
+}
+
+#languages p {
+	margin-bottom: 60px;
+}
+
+#hobbies p {
+	margin-bottom: 60px;
+}
+
+#education p {
+	margin-bottom: 60px;
+}
+
+  @media (max-width: 760px) {
+	.container {
+		width: 600px;
+   }
+  @media (max-width: 500px) {
+	.container {
+		width: 400px;
+   }
+
+   
